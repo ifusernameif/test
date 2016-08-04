@@ -8,7 +8,7 @@
 [https://github.com/liruqi/Potatso-iOS]()
 
 ## Other
-该文件夹包含 [shadowsocks-iOS][4]，[shadowsocks-libev][5] 和 Potato 的 Podfile 修改后的文件。
+该文件夹包含 [shadowsocks-iOS][4]，[shadowsocks-libev][5] 和 Potato 的 **Podfile** 修改后的文件。
 
 
 # 安装指南
@@ -33,8 +33,8 @@
 
 	./configure --with-openssl="{user path}/ShadowPath/ShadowPath/libopenssl"
 
-编译 shadowsocks-libev 下的文件。
-   
+编译 **shadowsocks-libev** 下的文件。
+#### 												   
 复制 `/Potatso/Other/CocoaPod-Podfile/` 下 `Podfile` 文件到 `/Potatso` 项目的根目录下，执行 
 
 	pod install
@@ -48,11 +48,11 @@
 	/Potatso/Carthage/Checkouts/YAML.framework/YAML.xcodeproj
 
 ## 项目编译
-修改 Targets -\> Identity -\> Team 
+修改 **Targets -\> Identity -\> Team **
 
 	X-Reception Technology (Beijing) Co., Ltd.
 
-修改项目 Targets -\> Bundle Identifier
+修改项目 **Targets -\> Bundle Identifier**
 
 	Potatso: com.zuiqt.potatso
 	PacketTunnel: com.zuiqt.potatso.PacketTunnel
@@ -68,8 +68,8 @@
 
 	group.com.zuiqt.duotaidemo 
 
-三个 Targets 的 Provisioning Profile 均在[开发者平台][11]建好，如状态为 `Invalid`，重新 “Edit -\> Generate” 即可重新激活。
-   
+三个 **Targets** 的 **Provisioning Profile** 均在[开发者平台][11]建好，如状态为 `Invalid`，重新 “Edit -\> Generate” 即可重新激活。
+---- 						   
 之后即可在编译执行。 
 
 
