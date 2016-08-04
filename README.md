@@ -11,8 +11,9 @@
 该文件夹包含 [shadowsocks-iOS][4]，[shadowsocks-libev][5] 和 Potato 的 Podfile 修改后的文件。
 
 
-# 构建方式
+# 安装指南
 ## 框架依赖
+
 - [Potatso 官方配置说明][6]
 
 - [Issues 中发布的构建步骤][7]
@@ -20,6 +21,9 @@
 - [shadowsocks-libev 时发生错误解决方式][8]
 
 ---- 
+在 `Potatso` 根目录下执行
+
+	git submodule update --init
 
 如果在执行  `git submodule update --init` 时发生错误，需要手动下载 [shadowsocks-libev][9] （或者在 shadowsocks-libev 文件夹下获取旧版本），复制到 
 
