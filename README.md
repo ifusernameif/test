@@ -18,9 +18,7 @@
 
 如果在执行 \`\`\` git submodule update --init \`\`\` 时发生错误，需要手动下载 [shadowsocks-libev][9] （或者在 shadowsocks-libev 文件夹下获取旧版本），复制到 
 
-\`\`\` 
-/Potatso/Library/ShadowPath/ShadowPath/shadowsocks-libev 
-\`\`\` 
+	/Potatso/Library/ShadowPath/ShadowPath/shadowsocks-libev 
 
 文件夹目录下，然后在 Terminal 中进入该文件夹，执行 
 
