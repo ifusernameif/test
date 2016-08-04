@@ -13,11 +13,11 @@
 
 # 构建方式
 ## 框架依赖
-[Potatso 官方配置说明][6]
+- [Potatso 官方配置说明][6]
 
-[Issues 中发布的构建步骤][7]
+- [Issues 中发布的构建步骤][7]
 
-[shadowsocks-libev 时发生错误解决方式][8]
+- [shadowsocks-libev 时发生错误解决方式][8]
 
 ---- 
 
@@ -64,7 +64,7 @@
 
 	group.com.zuiqt.duotaidemo 
 
-三个 Targets 的 Provisioning Profile 均在[开发者平台][10]建好，如状态为 `Invalid`，重新 “编辑 -\> 确定” 即可重新激活。
+三个 Targets 的 Provisioning Profile 均在[开发者平台][10]建好，如状态为 `Invalid`，重新 “Edit -\> Generate” 即可重新激活。
 
 之后即可在编译执行。 
 
