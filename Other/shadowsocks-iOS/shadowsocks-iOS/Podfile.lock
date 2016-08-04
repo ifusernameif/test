@@ -1,0 +1,17 @@
+PODS:
+  - libsodium (1.0.3)
+  - ZXingObjC (3.1.0):
+    - ZXingObjC/All (= 3.1.0)
+  - ZXingObjC/All (3.1.0)
+
+DEPENDENCIES:
+  - libsodium (~> 1.0.3)
+  - ZXingObjC (~> 3.0)
+
+SPEC CHECKSUMS:
+  libsodium: be547e31dc75725629acc5717dc0a40fc05ef243
+  ZXingObjC: bf15b3814f7a105b6d99f47da2333c93a063650a
+
+PODFILE CHECKSUM: 4118b5e026da102a9851d444816c2e1e84f21cb0
+
+COCOAPODS: 1.0.1
