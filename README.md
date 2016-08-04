@@ -34,7 +34,7 @@
 	./configure --with-openssl="{user path}/ShadowPath/ShadowPath/libopenssl"
 
 编译 shadowsocks-libev 下的文件。
-   
+\<br /\>
 复制 `/Potatso/Other/CocoaPod-Podfile/` 下 `Podfile` 文件到 `/Potatso` 项目的根目录下，执行 
 
 	pod install
@@ -69,7 +69,7 @@
 	group.com.zuiqt.duotaidemo 
 
 三个 Targets 的 Provisioning Profile 均在[开发者平台][11]建好，如状态为 `Invalid`，重新 “Edit -\> Generate” 即可重新激活。
-
+\<br /\>
 之后即可在编译执行。 
 
 
