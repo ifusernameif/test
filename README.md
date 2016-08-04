@@ -10,6 +10,7 @@
 ## Other
 该文件夹包含 [shadowsocks-iOS][4]，[shadowsocks-libev][5] 和 Potato 的 Podfile 修改后的文件。
 
+
 # 构建方式
 ## 框架依赖
 [Potatso 官方配置说明][6]
@@ -34,10 +35,12 @@
 
 	pod install
 
-再通过 Terminal 执行 
+再通过 Terminal 执行
+ 
 	carthage update
 
 编译 
+
 	/Potatso/Carthage/Checkouts/YAML.framework/YAML.xcodeproj
 
 ## 项目编译
@@ -53,13 +56,11 @@
 
 关闭 `Capabilites` 中的 `Push Notification` 和 `Background Modes`,
 
-去掉 App Group 原来的钩，选择 
+去掉三个 Target 的 App Group 原来的钩，并选择 
 
 	group.com.zuiqt.duotaidemo 
 
-三个 Target 同样，
-
-并修改 `PacketTunnel/PacketTunnelProvider.m` 中 `initWithApplicationGroupIdentifier` 的 `identifier` 为
+之后修改 `PacketTunnel/PacketTunnelProvider.m` 中 `initWithApplicationGroupIdentifier` 的 `identifier` 为
 
 	group.com.zuiqt.duotaidemo 
 
