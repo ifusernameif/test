@@ -13,8 +13,10 @@
 # 构建方式
 ## 框架依赖
 [Potatso 官方配置说明][6]
+
 [Issues 中发布的构建步骤][7]
-[shadowsocks-libev 时发生错误][8]
+
+[shadowsocks-libev 时发生错误解决方式][8]
 
 如果在执行  `git submodule update --init` 时发生错误，需要手动下载 [shadowsocks-libev][9] （或者在 shadowsocks-libev 文件夹下获取旧版本），复制到 
 
