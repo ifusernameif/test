@@ -18,26 +18,23 @@
 
 [shadowsocks-libev 时发生错误解决方式][8]
 
+
 如果在执行  `git submodule update --init` 时发生错误，需要手动下载 [shadowsocks-libev][9] （或者在 shadowsocks-libev 文件夹下获取旧版本），复制到 
 
 	/Potatso/Library/ShadowPath/ShadowPath/shadowsocks-libev 
 
 文件夹目录下，然后在 Terminal 中进入该文件夹，执行 
 
-\`\`\` 
-./configure --with-openssl=“{user path}/ShadowPath/ShadowPath/libopenssl
-\`\`\` 
+	./configure --with-openssl=“{user path}/ShadowPath/ShadowPath/libopenssl
 
 编译 shadowsocks-libev 下的文件。
 
-复制 \`\`\` /Potatso/Other/CocoaPod-Podfile/ \`\`\` 下 Podfile 文件到 \`\`\` /Potatso \`\`\` 项目的根目录下，执行 \`\`\` pod install \`\`\`
+复制 `/Potatso/Other/CocoaPod-Podfile/` 下 Podfile 文件到 `/Potatso` 项目的根目录下，执行 `pod install`
 
-再通过 Terminal 执行 \`\`\` carthage update \`\`\`
+再通过 Terminal 执行 `carthage update`
 
 编译 
-\`\`\`
-/Potatso/Carthage/Checkouts/YAML.framework/YAML.xcodeproj
-\`\`\`
+	/Potatso/Carthage/Checkouts/YAML.framework/YAML.xcodeproj
 
 ## 项目编译
 修改 Targets -\> Identity -\> Team 
