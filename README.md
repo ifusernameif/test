@@ -60,7 +60,7 @@
 
 关闭 `Capabilites` 中的 `Push Notification` 和 `Background Modes`,
 
-去掉三个 Target 的 App Group 原来的钩，并选择 
+去掉三个 **Target** 的 __App Group__ 原来的钩，并选择 
 
 	group.com.zuiqt.duotaidemo 
 
